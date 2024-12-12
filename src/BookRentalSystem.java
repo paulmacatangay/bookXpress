@@ -18,7 +18,7 @@ public class BookRentalSystem {
                 case 2 -> UserService.createAccount();
                 case 3 -> UserService.login();
                 case 4 -> {
-                    System.out.println("Thank you for using bookXpress!");
+                    System.out.println("Thank you for using bookXpress: Book Rental System!");
                     return;
                 }
                 default -> System.out.println("Invalid choice.");
