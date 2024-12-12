@@ -2,6 +2,8 @@
 
 ![bookXpress Banner](https://github.com/paulmacatangay/bookXpress/blob/68595baf0649a2e93e3ab12bfdb79f0ca2707414/images/bookXpress%20Banner.jpg)
 
+Please click this [link](https://drive.google.com/file/d/1T3G2LvZkgWztN0zsrtsFtIAxqLbwnryQ/view?usp=sharing) to watch the presentation video.
+
 ---
 
 ## I. **Project Overview**
