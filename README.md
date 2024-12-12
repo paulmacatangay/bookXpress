@@ -122,25 +122,30 @@ Ensure inclusive and equitable quality education and promote lifelong learning o
 
 **📁 File Structure**
 ```
-project-root/
-├── bookXpress/
-│   │   ├── Account.java
-│   │   ├── Book.java
-│   │   ├── BookRentalSystem.java    ##Main
-│   │   ├── DBConnection.java
-│   │   ├── FictionBook.java
-│   │   └── NonFictionBook.java
-│   ├── db/
-│   │   ├── init.sql
-│   │   └── schema.png
-│   ├── images/
-│   │   ├── bookXpress_Banner.jpg
-│   │   └── Developer.jpg
-│   ├── lib/
-│   │   └── mysql-connector-j-9.1.0.jar
-│   └── README.md
-└── .vscode/
-    └── settings.json
+bookXpress/
+├── .vscode/
+│   ├── settings.json
+├── db/
+│   ├── init.sql
+│   ├── schema.png
+├── images/
+│   ├── bookXpress Banner.jpg
+│   ├── Developer.jpg
+├── lib/
+│   ├── mysql-connector-j-9.1.0.jar
+├── models/
+│   ├── Book.java
+│   ├── FictionBook.java
+│   ├── NonFictionBook.java
+├── src/
+│   ├── Account.java
+│   ├── AdminService.java
+│   ├── BookRentalSystem.java  ##Main
+│   ├── DBConnection.java
+│   ├── TransactionService.java
+│   ├── UserService.java
+├── README.md
+
 ```
 **Note**
 - Ensure your MySQL credentials in DBConnection.java are correct.
